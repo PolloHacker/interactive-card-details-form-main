@@ -17,6 +17,9 @@
     .attribution {
       font-size: 11px;
       text-align: center;
+      position: fixed;
+      bottom: 0;
+      right: 0;
     }
 
     .attribution a {
@@ -62,7 +65,8 @@
         <div class="name-container">
           <label class="space-grotesk-semibold" for="cardholder-name">Cardholder Name</label>
           <div class="border-creator">
-            <input type="text" class="space-grotesk-semibold" --maxlength="0" id="cardholder-name" placeholder="e.g. Jane Appleseed">
+            <input type="text" class="space-grotesk-semibold" --maxlength="0" id="cardholder-name"
+              placeholder="e.g. Jane Appleseed">
           </div>
           <span class="error"></span>
         </div>
@@ -70,7 +74,8 @@
         <div class="number-container">
           <label class="space-grotesk-semibold" for="card-number">Card Number</label>
           <div class="border-creator">
-            <input type="text" class="space-grotesk-semibold" --maxlength="16" --divisor="4" id="card-number" placeholder="e.g. 1234 5678 9123 0000">
+            <input type="text" class="space-grotesk-semibold" --maxlength="16" --divisor="4" id="card-number"
+              placeholder="e.g. 1234 5678 9123 0000">
           </div>
           <span class="error"></span>
         </div>
@@ -107,7 +112,7 @@
 
   <div class="attribution space-grotesk-regular">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/PolloHacker" target="_blank">Isaac Reyes</a>.
   </div>
 
   <script type="module" src="design/js/form-validator.js" defer></script>
