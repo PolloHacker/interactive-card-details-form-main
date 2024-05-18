@@ -26,7 +26,7 @@ body {
     position: relative;
     height: 100vh;
     flex-basis: calc(1 / 3 * 100%);
-    background: url("/images/bg-main-desktop.png") no-repeat;
+    background: url("/interactive-details-form-main/images/bg-main-desktop.png") no-repeat;
 }
 
 .card-container {
